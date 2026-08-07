@@ -1,0 +1,17 @@
+.github/
+*.log
+bin/
+obj/
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.DS_Store
+node_modules/
+dist/
+build/
+out/
+logs/
+*.tmp
