@@ -1,0 +1,14 @@
+using System.Windows;
+
+namespace OpenTURZXStudio.Desktop
+{
+    public partial class App : Application
+    {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+            this.MainWindow = new MainWindow();
+            this.MainWindow.Show();
+        }
+    }
+}
